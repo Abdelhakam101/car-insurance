@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
+
 
 df = pd.read_csv('cleaning_df.csv',index_col=False)
 st.title('Car Insurance Claim Project')
